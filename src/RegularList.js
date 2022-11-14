@@ -9,5 +9,5 @@ export const RegularList = ({
 			<ItemComponent key={i} {...{ [resourceName]: item }} />
 		))}
 		</>
-	)
+	);
 }
